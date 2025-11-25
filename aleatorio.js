@@ -1,4 +1,4 @@
-const Nomes = ["Carlos","Miguel","Mateus","Vinicius","João","Maria"];
+const nomes = ["Carlos","Miguel","Mateus","Vinicius","João","Maria"];
 
 
 export function aleatorio(lista) {
@@ -6,4 +6,4 @@ export function aleatorio(lista) {
     return lista[posicao];
 }
 
-export const nomes = aleatorio(nomes);
+export const nome = aleatorio(nomes);
